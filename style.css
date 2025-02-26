@@ -1,0 +1,226 @@
+/*--------------------------------- Global / Elemental --------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    box-sizing: border-box;
+    /* border: 0.25px solid grey; */
+}
+
+.w {
+    display: flex;
+    justify-content: center;
+}
+
+/*--------------------------------- NAVBAR --------------------------------- */
+
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #070F2B;
+    height: 5rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    gap: 3rem;
+    color: white;
+}
+
+/*                 ---------------- main nav ----------------                  */
+
+.navbar nav {
+    display: flex;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+/*--------------------------------- HERO-SECTION --------------------------------- */
+
+.hero-wrapper {
+    background-color: #1B1A55;
+}
+
+.hero-section {
+    height: calc(100vmin - 5rem);
+    width: 85%;
+    display: flex;
+}
+
+.hero-section div {
+    width: 50vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 3vmin;
+}
+
+.hero-section h1 {
+    color: #6D67E4;
+    padding-left: 1rem;
+    /* -webkit-text-stroke: 0.15rem #070F2B;   can be used but... whatever*/
+}
+
+.hero-section :nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section :nth-child(2) span{
+    background-image: url(stash/hero-img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*--------------------------------- SEP-LINE --------------------------------- */
+
+.sep-line {
+    display: flex;
+    justify-content: center;
+    background-color: #1B1A55;
+}
+
+.sep-line div {
+    background-color: white;
+    width: 93%;
+    height: 0.2rem;
+    transform: translate(0, 50%);
+    border-radius: 3px;
+}
+
+._2 {
+    background-color: #535C91;
+}
+
+
+/*--------------------------------- XP --------------------------------- */
+
+.xp-wrapper {
+    background-color: #535C91;
+    padding-bottom: 32vmin;
+}
+
+.xp-section {
+    width: 85%;
+}
+
+.xp-text {
+    padding: 5rem 0 15vmin;
+    color: white;
+    font-size: 2vmin;
+}
+
+.xp-text p {
+    color: rgb(170, 169, 169);
+}
+
+/*                 ---------------- timeline ----------------                  */
+
+.timeline {
+    width: 100%;
+}
+
+.timeline div {
+    background-color: white;
+}
+
+.hline{
+    width: 100%;
+    height: 0.2rem;
+}
+
+.vline {
+    width: 0.15rem;
+    height: 5rem;
+}
+
+.vline-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.vline {
+    color: white;
+}
+
+.vline i {
+    font-size: 7vmin;
+    transform: translate(-50%, -126%);
+}
+
+.vline h3 {
+    font-size: 2.3vmin;
+    margin-top: 5vmin;
+}
+
+.vline p {
+    font-size: 1.2vmin;
+    color: rgb(214, 212, 212);
+}
+
+.vline-desc {
+    background-color: #535C91 !important;  /*I got confused here*/
+    width: 15vmin;
+}
+
+
+/*--------------------------------- FOOTER --------------------------------- */
+
+footer {
+    background-color: #1e1d27;
+    padding: 6rem 0 0;
+    width: 100%;
+    color: white;
+}
+
+.fup {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.fup ul {
+    list-style: none;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.5vmin;
+}
+
+footer h3 {
+    font-size: 6vmin;
+}
+
+footer h4 {
+    color: rgb(216, 214, 214);
+    text-align: center;
+    padding: 3rem;
+}
